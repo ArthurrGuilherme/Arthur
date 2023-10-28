@@ -1,0 +1,349 @@
+.container-primaria {
+    background: url(https://i.pinimg.com/originals/16/89/5b/16895b231b6da505e2e4acef02a3c1fe.gif);
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: top;
+}
+.sessao-cor {
+    width: 100%;
+    height: 100vh;
+    background: #000000bc;
+    display: flex;
+}
+.sessao-left {
+    width: 35%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+}
+.tag-principal-left {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.tag-principal-left h1 {
+    font-size: 4.5rem;
+    letter-spacing: 1.5px;
+    color: #fff;
+    font-family: monospace;
+    border-right: 4px solid #ff0000;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: Digitando 4s steps(20), Borda 0.5s infinite step-end alternate;
+}
+    
+.titulo-principal{
+    position: absolute;
+    right: -6.7rem;
+}
+.tag-secundaria-lef p {
+    color: #ffffffce;
+}
+.tag-secundaria-lef {
+    width: 100%;
+    height: 24vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.apresentacao {
+    width: 60%; 
+}
+.sessao-terciaria-left {
+    width: 48%;
+    height: 40vh;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.sessao-terciaria-left P {
+    color: #ffffffc4;
+    font-size: 1.3rem;
+}
+.container-centro {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: absolute;
+}
+.bxs-chevrons-down {
+    font-size: 3rem;
+    color: #fff;
+    position: relative;
+    animation: mymove 1s infinite;
+}
+
+/*Animações*/
+    @keyframes mymove {
+        from {top: -20px; color: #ffffff00;}
+        to {top: 30px; color: #fff;}
+    }
+    @keyframes Digitando {
+        from {
+            width: 250px;
+        }
+        to {
+            width: 375px;
+        }
+    }
+    @keyframes Borda {
+        50% {
+            border-color: transparent;
+        }
+    }
+/*Animações*/
+
+/*container-secudario*/
+.container-secudario {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sessao-img-apresentacao {
+    border-radius: 100%;
+    background: linear-gradient(250deg, #ff0000, transparent)
+}
+.sessao-pessoal {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-left: 2rem;
+}
+.front {
+    display: flex;
+    gap: .5rem;
+    padding-top: .5rem;
+}
+#linguas {
+    font-size: 1.5rem;
+}
+.texto-pessoal h1 {
+    font-size: 2.5rem;
+    width: 60%;
+}
+.btn-curriculo {
+    background: #ff0000;
+    padding: .2rem .5rem;
+    border-radius: 10px 0px 10px 0px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    width: 50%;
+    position: relative;
+    left: 0px; 
+    right: 0px;
+    transition: all 0.5s;
+}
+#Seta-curriculo {
+    font-size: 2rem;
+}
+.sessao-trabalho {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+#redes-sociais {
+    font-size: 1.2rem;
+    color: #000;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+/*Efeitos*/
+#redes-sociais:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    color: #ff0000;
+}
+.btn-curriculo:hover {
+    left: 1rem;
+}
+
+/*container-terceiro*/
+.onda-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+#onda-baixo {
+    rotate: 180deg;
+}
+.onda {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    background-size: 1000px 100px;
+    animation: onda 2s ease-in-out infinite alternate;
+}
+#onda1 {
+    z-index: 500;
+    opacity: 1;
+    background-position-x: 400px;
+}
+#onda2 {
+    z-index: 499;
+    opacity: 0.5;
+    background-position-x: 300px;
+}
+#onda3 {
+    z-index: 498;
+    opacity: 0.2;
+    background-position-x: 200px;
+}
+#onda4 {
+    z-index: 497;
+    opacity: 0.8;
+    background-position-x: 100px;
+}
+.container-terceiro {
+    width: 100%;
+    height: 80vh;
+    background: #000;
+    color: #fff;
+}
+.sessao-projetos-titulo {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sessao-projetos-titulo h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+.projeto {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.projetos {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.img-projetos {
+    width: 400px;
+    height: 200px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all .5s;
+}
+.projeto-texto {
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+}
+
+/*Animações*/
+@keyframes onda {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(15px);
+    }
+}
+
+/*container-formulario*/
+.container-formulario {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+.sessao-formulario {
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.sessao-dados {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.texto-formulario h1 {
+    font-size: 2.3rem;
+} 
+.texto-formulario {
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+.texto-formulario legend {
+    color: #000000ab;
+    font-size: 1rem;
+    width: 60%;
+}
+input {
+    border: solid #000 1px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding: .5rem .5rem;
+}
+.sessao-cor-formulario {
+    width: 20%;
+    height: 100vh;
+    background: #ff0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dados-formulario-texto {
+    background: #000;
+    width: 30%;
+    height: 35vh;
+    position: absolute;
+    right: 1rem;
+    padding: 0px 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: .8rem;
+    border-radius: 10px 0px 10px 0px;
+}
+.titulo-dados {
+    color: #fff;
+    font-size: 1.5rem;
+}
+.texto-dados {
+    color: #ffffffc9;
+    font-size: .9rem;
+}
+.dados-separacao {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.btn-formulario {
+    background: #ff0000;
+    border: none;
+    color: #fff;
+    border-radius: 15px;
+}
+footer {
+    width: 100%;
+    height: 35vh;
+    background: #000;
+}

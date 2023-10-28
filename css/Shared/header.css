@@ -1,0 +1,65 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
+nav {
+    width: 90%; 
+    height: 10vh;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    align-items: center; justify-content: space-evenly;
+    z-index: 1;
+}
+.lista-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.link-principal {
+    color: #fff;
+    font-size: 1.5rem;
+    letter-spacing: -1px;
+    font-family: cursive;
+    cursor: pointer;
+    transition: all .5s;
+}
+.link-site {
+    font-size: .9rem;
+    color: #ffffffb9;
+    position: relative;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+/*Efeitos*/
+.link-principal:hover {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+.link-site:hover::before, 
+.link-site:focus::before {
+    transform-origin: left top;
+    transform:  scale(1, 1);
+}
+.link-site::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #ff0000;
+    transform-origin: right top;
+    transform:  scale(0, 1);
+    transition: color 0.1s, transform 0.2s ease-out;
+}
+.link-site:hover {
+    color: #fff;
+}

@@ -1,0 +1,15 @@
+/*Container Principal*/
+    .bxs-chevrons-down {
+        visibility: hidden;
+    }
+/*Container Principal*/
+/*Container Secundario*/
+    .sessao-pessoal, .sessao-img-apresentacao, .sessao-trabalho {
+        visibility: hidden;
+    }
+/*Container Secundario*/
+/*Container Projetos*/
+    #Projeto01, #Projeto02, #Projeto03, #Projeto04 {
+        visibility: hidden;
+    }
+/*Container Projetos*/

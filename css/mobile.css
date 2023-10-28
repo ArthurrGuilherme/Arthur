@@ -1,0 +1,114 @@
+@media (max-width: 900px) {
+    .lista-header {
+        display: none;
+    }
+    .sessao-left {
+        width: 100%;
+    }
+    .sessao-terciaria-left {
+        width: 100%;
+        justify-content: center;
+        align-items: end;
+    }
+    .titulo-principal {
+        position: inherit;
+        right: 2rem;
+    }
+    .tag-principal-left {
+        justify-content: center;
+        align-items: center;
+    }
+    .tag-secundaria-lef {
+        align-items: baseline;
+    }
+    .apresentacao {
+        width: 90%;
+    }
+    .container-primaria {
+        background: url(https://i.pinimg.com/564x/74/6e/6a/746e6adea33c35f9c8fe0c14fcbdb1c0.jpg);
+        background-size: contain;
+        background-attachment: fixed;
+        background-position: top;
+    }
+    .container-secudario {
+        width: 100%;
+        height: 110vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .sessao-pessoal {
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+        text-align: center;
+        height: 12rem;
+    }
+    .texto-pessoal h1 {
+        font-size: 2.5rem;
+        width: 100%;
+    }
+    .btn-curriculo {
+        width: 95%;
+        text-align: center;
+    }
+    .eu {
+        width: 90%;
+    }
+    .sessao-img-apresentacao {
+        width: 90%;
+    }
+    .sessao-trabalho {
+        padding-top: 1rem;
+        width: 90%;
+    }
+    .front {
+        justify-content: center;
+    }
+    .container-terceiro {
+        height: 50vh;
+    }
+    .projeto-texto  {
+        display: none;
+    }
+    .projeto {
+        flex-direction: column;
+    }
+    .img-projetos {
+        width: 90%;
+    }
+    .projetos {
+        justify-content: center;
+    }
+    .projetos a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #projeto-mobile {
+        display: none;
+    }
+    .container-formulario {
+        flex-direction: column-reverse;
+    }
+    .dados-formulario-texto {
+        width: 74%;
+    }
+    .sessao-formulario {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+    .texto-formulario legend {
+        width: 100%;
+    }
+    footer {
+        height: 65vh;
+    }
+    .conteiner-footer {
+        height: 65vh !important;
+        flex-direction: column-reverse;
+    }
+    
+}
