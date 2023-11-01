@@ -25,3 +25,36 @@ document.querySelector("#contatos").addEventListener("click", function (event) {
 
     console.log("go to up");
 });
+
+/*Footer*/
+document.querySelector("#Sobre").addEventListener("click", function (event) {
+    event.preventDefault();
+
+    scrollTo("#Mim");
+
+    console.log("go to up");
+});
+
+document.querySelector("#Projetos").addEventListener("click", function (event) {
+    event.preventDefault();
+
+    scrollTo("#Hub");
+
+    console.log("go to up");
+});
+
+document.querySelector("#Contatos").addEventListener("click", function (event) {
+    event.preventDefault();
+
+    scrollTo("#Formulario");
+
+    console.log("go to up");
+});
+
+document.querySelector(".BalaoScroll").addEventListener("click", function (event) {
+    event.preventDefault();
+
+    scrollTo(".container-primaria");
+
+    console.log("go to up");
+});
