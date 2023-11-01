@@ -127,4 +127,8 @@
     form {
         width: 85%;
     }
+    .BalaoScroll {
+        width: 15%;
+        left: 41%;
+    }
 }
