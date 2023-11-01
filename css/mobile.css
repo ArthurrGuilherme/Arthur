@@ -115,10 +115,10 @@
         width: 100%;
     }
     footer {
-        height: 65vh;
+        height: 45vh;
     }
     .conteiner-footer {
-        height: 65vh !important;
+        height: 40vh !important;
         flex-direction: column-reverse;
     }
     .sessao-trabalho {
