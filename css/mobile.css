@@ -4,10 +4,10 @@
     }
     @keyframes Digitando {
         from {
-            width: 140px;
+            width: 160px;
         }
         to {
-            width: 205px;
+            width: 250px;
         }
     }
     .lista-header {
@@ -38,7 +38,6 @@
     .container-primaria {
         background: url(https://i.pinimg.com/564x/74/6e/6a/746e6adea33c35f9c8fe0c14fcbdb1c0.jpg);
         background-size: contain;
-        background-attachment: fixed;
         background-position: top;
     }
     .container-secudario {
