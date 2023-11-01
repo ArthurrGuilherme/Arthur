@@ -124,5 +124,7 @@
     .sessao-trabalho {
         text-align: center;
     } 
-    
+    form {
+        width: 85%;
+    }
 }
