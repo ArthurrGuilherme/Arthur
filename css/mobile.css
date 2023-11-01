@@ -53,9 +53,8 @@
         flex-direction: column;
         gap: 0.8rem;
         text-align: center;
-        height: 10rem;
+        height: 11rem;
         padding: 0rem;
-        width: 70%;
     }
     .texto-pessoal h1 {
         font-size: 2rem;
